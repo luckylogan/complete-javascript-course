@@ -75,4 +75,17 @@ console.log( fruitProcessor(2, 3) );
 
 // REVIEWING FUNCTIONS
 
- 
+ //what are the 3 different types of functions and what are they're differences.
+
+
+ //CODING CHALLENGE #1
+
+ //1. Create an arrow function 'calcAverage' to calculate the average of 3 scores.
+
+ const calcAverage = (a, b, c) => a + b + c / 2;
+
+ //2. Use the function to calculate the average for both teams.
+
+ console.log(calcAverage(44, 23, 71));
+
+ //3. Create a function 'checkWinner' that takes the average score of each team as parameters 

@@ -45,9 +45,10 @@ const num = Number('23');
 
 
 ///////////////////////////////////////
-// Function Declarations vs. Expressions
+Function Declarations vs. Expressions
 
 // Function declaration
+
 function calcAge1(birthYeah) {
   return 2037 - birthYeah;
 }

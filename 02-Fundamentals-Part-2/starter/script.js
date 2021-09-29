@@ -82,10 +82,16 @@ console.log( fruitProcessor(2, 3) );
 
  //1. Create an arrow function 'calcAverage' to calculate the average of 3 scores.
 
- const calcAverage = (a, b, c) => a + b + c / 2;
+ const calcAverage = (a, b, c) => (a + b + c) / 2;
 
  //2. Use the function to calculate the average for both teams.
 
  console.log(calcAverage(44, 23, 71));
 
- //3. Create a function 'checkWinner' that takes the average score of each team as parameters 
+ //3. Create a function 'checkWinner' that takes the average score of each team as parameters and log the winner to the console, together with the victory paoints, according to the rule above.
+
+ const avgDolphins = calcAverage(44, 23, 71)
+
+ const avgKoalas = calcAverage(65, 54, 49)
+
+ console.log(avgDolphins, avgKoalas)
